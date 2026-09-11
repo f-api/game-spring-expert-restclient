@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: game-spring-expert-restclient
+  http:
+    clients:
+      connect-timeout: 2s
+      read-timeout: 1s
+
+server:
+  port: ${PORT:8080}
+
+rates:
+  base-url: https://f-api.github.io/game-spring-expert-restclient
